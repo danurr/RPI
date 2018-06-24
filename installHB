@@ -39,5 +39,5 @@ cd /home/pi/.homebridge/
 sudo npm install -g homebridge-yeelight
 sudo npm install -g homebridge-hs100
 sudo npm i homebridge-mi-aqara
-sudo npm i homebridge-aqara
+sudo npm install -g homebridge-aqara
 sudo apt-get install screen
