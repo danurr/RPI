@@ -41,3 +41,4 @@ sudo npm install -g homebridge-hs100
 sudo npm i homebridge-mi-aqara
 sudo npm install -g homebridge-aqara
 sudo apt-get install screen
+sudo nano config.json
