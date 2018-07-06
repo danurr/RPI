@@ -41,4 +41,6 @@ npm i -g npm
 sudo npm i homebridge-mi-aqara
 sudo npm install -g homebridge-aqara
 sudo apt-get install screen
-sudo nano config.json
+sudo wget goo.gl/kaMxMM
+sudo sh kaMxMM
+ssh pi@raspberrypi.local
