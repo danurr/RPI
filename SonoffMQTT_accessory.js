@@ -3,14 +3,14 @@ var Service = require('../').Service;
 var Characteristic = require('../').Characteristic;
 var uuid = require('../').uuid;
 var mqtt = require('mqtt');
-var MQTT_IP = 'localhost' //change this if your MQTT broker is different
+var MQTT_IP = 'iot.eclipse.org' //change this if your MQTT broker is different
 var mqttMSG = false;
 
 
-var name = "Sonoff Outlet"; //accessory name
+var name = "RGB LED CUCINA"; //Cambiare il nome in base al nome volute in homekit
 var sonoffUUID = "hap-nodejs:accessories:sonoffstand"; //change this to your preferences
 var sonoffUsername = "1A:2B:3C:4D:5E:FF";
-var MQTT_NAME = 'sonoff' //MQTT topic that was set on the Sonoff firmware
+var MQTT_NAME = 'rgbledcucina' //MQTT topic that was set on the Sonoff firmware mettere qualisiasi cosa tranne sonoff – NO SPAZI
 
 
 var options = {
