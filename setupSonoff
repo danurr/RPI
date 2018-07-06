@@ -31,5 +31,5 @@ fi
 cd /home/pi/HAP-NodeJS
 sudo npm install mqtt --save
 cd accessories/
-sudo wget https://goo.gl/EI1rr3 -O SonoffMQTT_accessory.js
+sudo wget https://goo.gl/LJwL6N -O SonoffMQTT_accessory.js
 clear
