@@ -35,3 +35,10 @@
     `sudo forever start CameraCore.js`
 
     Once you are done, save the file and exit nano.
+- `sudo chmod +x /start`
+- `sudo nano /etc/rc.local`
+    - incollare nella riga prima di exit 0 la seguente stringa:
+    
+      `sudo sh /start`
+      
+      `sudo reboot now`  //per verificare che tutto funzioni
