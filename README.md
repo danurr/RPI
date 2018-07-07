@@ -18,3 +18,20 @@
       `su -c "screen -dmS homebridge homebridge" -s /bin/sh pi`
       
       `sudo reboot now`  //per verificare che tutto funzioni
+- `sudo nano /start` //This command opens nano and allows you to edit the start script. Add the following lines:
+
+    - `sudo forever stopall`
+    
+      `cd /home/pi/HAP-NodeJS`
+      
+      `sudo forever start BridgedCore.js`
+
+    Change BridgedCore.js to Core.js if you are using Core.js.
+
+    If you are ONLY using CameraCore.js, change BridgedCore.js to CameraCore.js.
+
+    Add this additional line at the end if you are using CameraCore.js alongside Core/BridgedCore.js:
+
+    `sudo forever start CameraCore.js`
+
+    Once you are done, save the file and exit nano.
