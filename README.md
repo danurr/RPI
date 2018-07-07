@@ -10,4 +10,5 @@
 - `sudo apt update && sudo apt upgrade && sudo apt dist-upgrade`
 - `curl -sSL https://raw.githubusercontent.com/danurr/RPI/master/installHB | bash`
 - `cd /home/pi/.homebridge/
+
    sudo nano config.json`
