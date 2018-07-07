@@ -42,4 +42,6 @@ sudo npm install -g homebridge-aqara
 sudo apt-get install screen
 sudo wget https://goo.gl/rCS3Pj
 sudo sh rCS3Pj
+cd ~
+sudo npm install forever -g
 ssh pi@raspberrypi.local
