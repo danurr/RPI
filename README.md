@@ -11,4 +11,10 @@
 - `curl -sSL https://raw.githubusercontent.com/danurr/RPI/master/installHB | bash`
 - `cd /home/pi/.homebridge/`
 
-   `sudo nano config.json`
+   `sudo nano config.json` //modificare file secondo necessità
+- `sudo nano /etc/rc.local`
+    - incollare nella riga prima di exit 0 la seguente stringa:
+    
+      `su -c "screen -dmS homebridge homebridge" -s /bin/sh pi`
+      
+      `sudo reboot now`  //per verificare che tutto funzioni
